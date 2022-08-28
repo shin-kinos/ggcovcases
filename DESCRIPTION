@@ -1,0 +1,18 @@
+Package: ggcovcases
+Title: Lineplot Visualisation of COVID-19 Cases And Deaths
+Version: 0.1.0
+Authors@R:
+    person(
+        given = "Shintaro",
+        family = "Kinoshita",
+        email = "shintaro.kinoshita.584@cranfield.ac.uk",
+        role = c("aut", "cre"))
+Description: The ggcovcases package acquires COVID-19 cases or deaths information in each counrty by automatically picking the data from WHO COVID-19 Global Data(https://covid19.who.int/WHO-COVID-19-global-data.csv), and Visualise them as lineplot or connected scatter plot using some ggplot2 functions.
+Depends:
+    R (>= 4.0.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: ggplot2 (>= 3.3.5),
+    scales
