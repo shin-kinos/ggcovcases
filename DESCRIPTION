@@ -1,5 +1,5 @@
 Package: ggcovcases
-Title: Lineplot Visualisation of COVID-19 Cases And Deaths
+Title: Lineplot Visualisation of COVID-19 Cases and Deaths
 Version: 0.1.0
 Authors@R:
     person(
